@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,4 +43,33 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
+
+
+# Title:  Notification App
+
+## Description:
+The Beginner's Notification App is a simple web application designed to help beginners understand how to interact with a JSON Placeholder API using TypeScript. This app allows users to add and delete notifications from a remote server and displays them in a user-friendly interface.
+
+## Features
+
+- Add Notification: Users can add new notifications by providing a title for the notification. Upon submission, the notification is added to the remote JSON Placeholder API.
+
+- Delete Notification: Users can delete existing notifications by clicking on a delete button associated with each notification displayed in the interface. Upon deletion, the notification is removed from both the interface and the remote JSON Placeholder API.
+
+- Display Notifications: The app displays notifications retrieved from the JSON Placeholder API in a list format. Each notification is displayed with its title and a delete button for easy interaction.
+
+## Tech Stack
+
+**Client:** React, TypeScript
+
+**Server:** JSON Placeholder API
+
+
+## Purpose
+
+The purpose of the Beginner's Notification App is to provide beginners with a hands-on learning experience in building a simple web application using React, TypeScript, and RESTful APIs. By following along with the app's development and interacting with the codebase, beginners can gain valuable insights into modern web development practices and strengthen their skills in frontend development.
+
+## Target Audience
+
+The Beginner's Notification App is designed for beginners who are new to web development and looking to gain practical experience in building web applications. It assumes basic knowledge of HTML, CSS, and JavaScript, but no prior experience with React, TypeScript, or RESTful APIs is required.
