@@ -15,9 +15,18 @@ function App() {
     setNotifications(notifications);
   };
 
+  const removeNotification = (id: number) => {
+    setNotifications(
+      notifications.filter((notification) => notification.id !== id)
+    );
+  };
+
   return (
     <div className='App'>
-      <NotificationList items={notifications}></NotificationList>
+      <NotificationList
+        onRemoveNotification={removeNotification}
+        items={notifications}
+      ></NotificationList>
     </div>
   );
 }
