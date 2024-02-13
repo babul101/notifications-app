@@ -22,9 +22,14 @@ function App() {
     );
   };
 
+  const addNotification = async (title: string) => {
+    const newNotification = await notificationService.addNotification(title);
+    setNotifications([newNotification, ...notifications]);
+  };
+
   return (
     <div className='App'>
-      <NewNotification />
+      <NewNotification onAddNotification={addNotification} />
       <NotificationList
         onRemoveNotification={removeNotification}
         items={notifications}
