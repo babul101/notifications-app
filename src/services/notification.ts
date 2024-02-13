@@ -1,5 +1,5 @@
 import axios from "axios";
-
+import Notification from "../interfaces/notification";
 
 class NotificationService {
     http = axios.create({
