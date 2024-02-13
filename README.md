@@ -68,8 +68,8 @@ The Beginner's Notification App is a simple web application designed to help beg
 
 ## Purpose
 
-The purpose of the Beginner's Notification App is to provide beginners with a hands-on learning experience in building a simple web application using React, TypeScript, and RESTful APIs. By following along with the app's development and interacting with the codebase, beginners can gain valuable insights into modern web development practices and strengthen their skills in frontend development.
+The purpose of the  Notification App is to provide beginners with a hands-on learning experience in building a simple web application using React, TypeScript, and RESTful APIs. By following along with the app's development and interacting with the codebase, beginners can gain valuable insights into modern web development practices and strengthen their skills in frontend development.
 
 ## Target Audience
 
-The Beginner's Notification App is designed for beginners who are new to web development and looking to gain practical experience in building web applications. It assumes basic knowledge of HTML, CSS, and JavaScript, but no prior experience with React, TypeScript, or RESTful APIs is required.
+The  Notification App is designed for beginners who are new to web development and looking to gain practical experience in building web applications. It assumes basic knowledge of HTML, CSS, and JavaScript, but no prior experience with React, TypeScript, or RESTful APIs is required.
